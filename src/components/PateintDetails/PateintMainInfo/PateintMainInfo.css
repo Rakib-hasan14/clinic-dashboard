@@ -1,0 +1,59 @@
+/* det-left-top */
+.det-left-top {
+    display: grid;
+    grid-template-columns: 39% 60%;
+    gap: 1%;
+    margin: 8px 0;
+    
+}
+.left-img {
+    text-align: center;
+    margin-top: 28px;
+    margin-bottom: 9px;
+}
+.left-img img{
+    width: 39%;
+    border-radius: 54%;
+}
+.left-top {
+    background: white;
+    height: 265px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.right-top{
+    background: white;
+}
+.left-info{
+    text-align: center;
+}
+.appoint-past{
+    text-align: center;
+    border-right: 2px solid #dfe4e9;
+}
+.appoint-upcoming{
+    text-align: center;
+}
+.appoint{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 20px
+}
+.sub-appoint{
+    color: #dfe4e9;
+    font-size:12px;
+    font-weight: bold;
+}
+.m-btn{
+    text-align: center;
+    margin-top: 20px
+}
+.m-btn button{
+    width: 80%;
+    background: transparent;
+    border: 1px solid #dfe4e9;
+    font-weight: bold;
+    padding: 8px 0;
+    border-radius: 6px;
+    cursor: pointer;
+}

@@ -1,0 +1,31 @@
+.files{
+    height: 41%;
+    width: 100%;
+    background-color: white;
+    margin-top: 10px;
+}
+.file-list{
+    list-style: none;
+}
+.file-list li {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+    padding: 10px 1px;
+    margin-top: 10px;
+    box-shadow: 1px 2px 5px -2px;
+}
+.file-list li div {
+    font-size: 13px;
+    color: #c1c1c1;
+}
+.file-list li p {
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    margin-right: 5px
+}
+.file-list span {
+    margin: 0 9px;
+}

@@ -1,0 +1,107 @@
+.ateint-list{
+    background-color: aliceblue;
+}
+.pateint-list {
+    width: 100vw;
+    height: 100vh;
+    background-color: #f2f5f9;
+}
+
+/* Pateint-List-Top Left content  */
+.top-left {
+    text-align: left;
+    width: 30%;
+    padding-left: 30px;
+}
+.top-left h1 {
+    display: inline-block;
+    font-size: 35px;
+}
+.top-left span {
+    font-size: 28px;
+    margin-right: 13px;
+    color: #0044e9;
+}
+
+/* PateintList-Left-top content  */
+.list-top {
+    display: flex;
+    justify-content: space-between;
+    height: 47px;
+    align-items: center;
+    border-bottom: 1px solid #dfe4e9;
+}
+.top-right{
+    display: grid;
+    grid-template-columns: 70% 15% 15%;
+}
+.top-input {
+    position: relative;
+}
+.top-input span {
+    position: absolute;
+    color: #c1c1c1;
+    left: 13px;
+    font-size: 18px;
+    bottom: 4px;
+}
+.top-input input {
+    padding: 6px 33px;
+    width: 63%;
+    border: 2px solid #dfe4e9;
+    color: #c1c1c1;
+    border-radius: 14px;
+    font-weight: bold;
+    background: transparent;
+}
+.plus-pateint svg {
+    background-color: #0044e9;
+    color: white;
+    padding: 7px;
+    border-radius: 16px;
+    margin-left: 9px;
+}
+.notificaion svg {
+    background: white;
+    color: #c1c1c1;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+/* Second top list */
+.list-scnd-top {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    border-bottom: 1px solid #dfe4e9;
+}
+.list-scnd-top h4{
+    margin: 0 20px;
+}
+.list-scnd-top span{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    height: 100%;
+}
+.default-web{
+    color: #0044e9 !important;
+}
+.default-web2{
+    color: #b8c0c5!important;
+}
+
+/* All Pateints  */
+a{
+    text-decoration: none;
+    color: Black;
+}
+.all-pateint {
+    display: flex;
+    justify-content: space-around;
+    background: floralwhite;
+    height: 36px;
+    align-items: center;
+    cursor: pointer;
+}

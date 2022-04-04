@@ -1,0 +1,107 @@
+.sidebar-cover{
+    height: 100vh;
+    width: 250px;
+    background-color: #fbfbfc;
+    position: relative;
+}
+#active , #active span{
+    background-color: #0d53fc;
+    color: white;
+    border-bottom: 3px solid #2962ec;
+}
+.s-debar-top {
+    display: grid;
+    grid-template-columns: 54px 140px 54px;
+    padding: 27px 0px;
+}
+.btn-close-cover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-close{
+    font-size: 26px;
+}
+.side-title h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.side-title p {
+    font-size: 13px;
+    font-weight: 300;
+}
+.list a {
+    text-decoration: none;
+}
+.list li {
+    padding: 6px 0;
+    font-weight: bold;
+    font-size: 14px;
+    transition: all 0.3s;
+    box-sizing: border-box;
+    border-bottom: 3px solid transparent;
+    display: flex;
+    align-items: center;
+}
+.nav-items li span {
+    font-size: 19px;
+    margin: 0px 30px;
+    color: #b8c0c5;
+}
+.list li:hover {
+    background-color: #0d53fc;
+    color: white;
+    border-bottom: 3px solid #2962ec;
+}
+.list li:hover span{
+    color: white;
+}
+
+/* Sidebar-Bottom */
+.sidebar-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+/* Help-sec */
+.help-sec{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.help-sec p {
+    font-size: 15px;
+    color: #b8c0c5;
+    display: flex;
+    align-items: center;
+}
+.help-sec p span {
+    margin: 0 30px;
+    font-size: 21px;
+}
+
+/* Doctor-part-bottom */
+.doctor-bottom{
+    display: grid;
+    grid-template-columns: 30% 50% 20%;
+    padding: 20px 0;
+    border-top: 1px solid #b8c0c5;
+}
+.doc-img{
+    text-align: center;
+}
+.doc-img img{
+    width: 63%;
+    border-radius: 84%;
+    height: 100%;
+}
+.doc-det {
+    margin-left: 10px;
+}
+.doc-det p {
+    font-size: 11px;
+    color: #b8c0c5;
+}
+.doc-det-btn {
+    text-align: center;
+}
